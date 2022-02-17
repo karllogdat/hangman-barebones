@@ -12,7 +12,7 @@ const submitBtn = document.querySelector("#submit.submit-button");
 const wrongDisplay = document.querySelector("#wrong-counter");
 const stageDisplay = document.querySelector("#stageImg");
 
-const ansElements = [answerDisplay, charInput, submitBtn, wrongDisplay];
+const ansElements = [answerDisplay, charInput, submitBtn, wrongDisplay, stageDisplay];
 
 let game = false;
 let answerChar = "";
